@@ -1,0 +1,10 @@
+<ForceField>
+    <AtomTypes>
+        <Type name="Ar" def="[Ar]"
+              class="Ar" element="Ar" mass="1.0"
+              desc="Argon atom"/>
+    </AtomTypes>
+    <NonbondedForce coulomb14scale="1.0" lj14scale="1.0">
+        <Atom type="Ar" charge="0" sigma="0.34" epsilon="1.0"/>
+    </NonbondedForce>
+</ForceField>
